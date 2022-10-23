@@ -4,7 +4,8 @@ import defaultImg from '../img/defaultImage.jpg';
 export default function Statistics({ title, stats }) {
   return (
     <section class="statistics">
-      <h2 class="title">{title}</h2>
+      {title && <h2 class="title">{title}</h2>}
+
       <ul class="stat-list">
         {stats.map(el => (
           <li class="item" key={el.id}>
