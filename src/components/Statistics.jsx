@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import defaultImg from '../img/defaultImage.jpg';
 
 export default function Statistics({ title, stats }) {
   return (
