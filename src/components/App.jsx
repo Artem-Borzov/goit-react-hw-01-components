@@ -1,15 +1,16 @@
-import Profile from './Profile';
+import css from './index.module.css';
+import Profile from './Profile/Profile';
 import userData from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
 import transactions from '../transactions.json';
-import Statistics from './Statistics';
-import FriendList from './FriendsList';
-import TransactionHistory from './TransactionHistory';
+import Statistics from './Statistics/Statistics';
+import FriendList from './FriendsList/FriendsList';
+import TransactionHistory from './TransactionsHistory/TransactionHistory';
 
 export default function App() {
   return (
-    <div>
+    <div className={css.container}>
       <Profile
         username={userData.username}
         tag={userData.tag}

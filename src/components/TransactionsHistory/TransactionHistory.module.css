@@ -1,0 +1,16 @@
+.transactionHistory {
+  border: 2px solid black;
+}
+.tHead {
+  background-color: skyblue;
+}
+
+.tBody {
+  background-color: yellowgreen;
+}
+.th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}

@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.description {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar {
+  max-height: 200px;
+}
+.name {
+  color: blue;
+}
+.tag {
+  color: purple;
+}
+.location {
+  color: brown;
+}
+.stats {
+  display: flex;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+}
+.statsItem:not(:last-child) {
+  margin-right: 15px;
+}

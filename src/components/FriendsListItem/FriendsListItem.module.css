@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: center;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 5px;
+  margin-right: 10px;
+}
+.isOnline {
+  background: green;
+}
+.isOffline {
+  background: red;
+}
+.avatar {
+  margin-right: 15px;
+}
+.name {
+  color: purple;
+}
